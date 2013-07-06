@@ -1,7 +1,6 @@
 *.py[cod]
-
-# C extensions
-*.so
+*$py.class
+__pycache__/
 
 # Packages
 *.egg
@@ -10,26 +9,26 @@ dist
 build
 eggs
 parts
-bin
-var
 sdist
 develop-eggs
 .installed.cfg
-lib
-lib64
 
 # Installer logs
 pip-log.txt
 
 # Unit test / coverage reports
+.cache
 .coverage
 .tox
+__WORKDIR__/
 nosetests.xml
+reports/
 
 # Translations
 *.mo
 
 # Mr Developer
+.idea
 .mr.developer.cfg
 .project
 .pydevproject
